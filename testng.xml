@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+<test verbose="2" preserve-order="true" name="C:/Users/agunapala/IdeaProject/QA_Test_For_Banking_App">
+<parameter name="firstName" value="Aruni"/>
+<parameter name="lastName" value="Gunapala"/>
+<classes>
+<class name="user.UserTest">
+<methods>
+<include name="createUser"/>
+<include name="getlink"/>
+</methods>
+</class>
+</classes>
+</test>
+</suite>
